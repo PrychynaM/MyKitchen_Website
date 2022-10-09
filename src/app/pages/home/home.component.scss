@@ -1,0 +1,81 @@
+.selected-dish {
+  padding: 37px 60px 0 60px;
+  display: flex;
+  justify-content: space-between;
+
+  &-image {
+    width: 650px;
+    height: 650px;
+  }
+
+  &-motto {
+    color: #535353;
+    font-weight: 700;
+    font-size: 45px;
+    width: 160px;
+  }
+
+}
+
+p {
+  margin: 0;
+}
+
+
+
+.dishes {
+  padding: 0 60px 75px 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -110px;
+  &-info {
+    width: 325px;
+    height: 370px;
+    background-color: white;
+    border-radius: 25px;
+    filter:drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.08));
+  }
+  &-image {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: -120px auto 0;
+    transform: rotate(140deg);
+    &:hover {
+      height: 326px;
+      width: 320px;
+    }
+  }
+  &-name, &-calories {
+    text-align: center;
+  }
+  &-name {
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  &-calories {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ACACAC;
+  }
+  &-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 520;
+    padding: 40px 18px 0 18px;
+    &-cookingTime-wrapper {
+      text-align: left;
+
+    }
+  }
+}
+
+.time, .person {
+  color: #ACACAC;
+  padding-bottom: 18px;
+}
+
+
+

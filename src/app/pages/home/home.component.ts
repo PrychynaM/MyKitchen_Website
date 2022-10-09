@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {MenuService} from "../../http/menu/menu.service";
+import {MenuInterface} from "../../interfaces/menu.interface";
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public data: MenuInterface[] = [];
+  public selected: MenuInterface = null;
+
+  constructor(private menuService: MenuService) { }
 
   ngOnInit(): void {
+    this.menuService.get().subscribe(
+      (res: {data: MenuInterface[]}) => {
+      this.data = res.data;
+      this.selected = this.data[0]
+        console.log(this.data[0])
+      }
+    )
   }
 
+  changeSelectedDish(dish: MenuInterface) {
+    this.selected = dish
+  }
 }
+

@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+
+      "name": "Salmon Salad",
+      "calories": 150,
+      "time": 15,
+      "max_person": 2,
+      "img": "assets/images/Salmon Salad.png",
+      "alt_img": "https://s3-alpha-sig.figma.com/img/24b1/a623/866716c3b05c5aea2c1e17947c08a05b?Expires=1665360000&Signature=B1TMqEZbVVYtdmgzW0YJM~Txge4f5GH6-bFP~np9aYSpz-mQT2W6oynDQDvtbPS5w9yw7D3EsiauFklcsc3SfO0xuLTdHFrMXS9mBxgP8bB8HMrkkR9lN0bBObH4bxvpZ16lcHFPA2R~468T6IOQKi-o9zEokfuFjJAM7ruZsDS65uQZH2~t4yCSxZQAVghfbeheIkHAeUKw4M899A9dR~tkHZMVwkFlRGfdhzjl1UCIa7UwL9IlG~tpX-q~DBUN~Y6zo1TwgeEBl~DGghqGPHF~hfqgOErI2eDY~J8QLnUn6KBRUEyr8RAtgZBnifkiIvzgVeWv5W3nT2dyl1FNLA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 120
+    },
+
+    {
+      "id": 2,
+
+      "name": "Raw Salmon Salad",
+      "calories": 270,
+      "time": 10,
+      "max_person": 1,
+      "img": "assets/images/raw salmon salad.png",
+      "alt_img": "https://s3-alpha-sig.figma.com/img/4b02/0c0f/d98400df9e64f1b4b14dd507aa2ae985?Expires=1665360000&Signature=gfzF~eshNJjNn93eDdf9BT4DCL5n8rX3fSBgwYaElXah-eFq1liPT-gHulddy8K4zmvugGyse9fIaxST8X2kUo9JNYz394QswX9jSHOElvDhgPs1EErCVvzUY6GSD6pHdFlQD~oSkSZNSOlldPbEoSeTy28KB3ERC8UGvFeHDMPvGDjafOlhjw7qHHHpmzrsmMtRdYkvCx4Nlov12S-UgwAoKj-xb9b-IS9tmgLJVoYQ8~MUxhLIF0NRnJPS9z1rgXuefBXYScMORNa0BofzrXvObsMeQOxRkOpRqiSs6j5P~ncj5vwkaDJ1QSebHDjt8Be5hndGMzfCXkj53euPbQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 100
+    },
+
+    {
+      "id": 3,
+
+      "name": "Salmon Stack",
+      "calories": 300,
+      "time": 15,
+      "max_person": 1,
+      "img": "assets/images/salmon stack.png",
+      "alt_img": "https://s3-alpha-sig.figma.com/img/b0ca/bbe1/de4d433872c43c9561dcc5ac1fa0c77a?Expires=1665360000&Signature=JtNvm-AkctINVgRNaU8aMCf1CehpWNMs4dGTig9PxKrXST5L5clC1TCzwawCPJSc~~Zmmk4eBQIrCybYlDZVz-uL4w5I6Xf2AIw6AjE6rpFoKe1Wb6LImeXzy0LwFmuTiQrWuOezaNjW2aUykFrbjv3-uzP028aipNfZRsxC6Ig~p~ueYVhDiDcdZzn6duznRLkkM9oDaUs9t3XSe8ftxpJ27ZgvR9Bm4f2lQsbzTbgtNcEYKtPFewKd-~iJ8sdgd7UpFXyBucTphiKHwUxfRsNGErRfZuiMeVsrPHG8jcoa1U4phgmzjgI98xL8eUaua2Y~kBVIlMCZ0sEt-jFv5Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 60
+    },
+
+    {
+      "id": 4,
+
+      "name": "Chicken with Rice",
+      "calories": 310,
+      "time": 12,
+      "max_person": 1,
+      "img": "https://www.figma.com/file/NB9fefEfKwthCwaK4LZ93g/image/977851b9c795edc03f464ce963657f2592c12f9f?fuid=782692714355641334",
+      "alt_img": "https://s3-alpha-sig.figma.com/img/7b79/0da6/cf404b139359ae8d380769e8c0997d16?Expires=1665360000&Signature=ELPxDOcwEHtWMSN~qZbb0hVhzSG42wTtssmV~OHIWcoHiFqK~cSZnzBqHUGCJKsairvLjpyLLBVUNKNYUBS9MF4Jm9D5TVk7ttv9xoGYodKMRPaYtIcGZEQPWFnE8BSX6-BGxElhEWUqkLCVwMRZtxorKo~QYNX8zV79RwSForFnIpHwOhviuDPsyCBwGfwvlpHqb60Vi5k8sgEZ9sLYEEjwTTm-eSbAyuNsyCz5dDiWWLFA8IqKJ~QbtHf8Wt8l~zBLAWHflV6QgEuFsKGh11JUeUXsdD57VMxMh4dSRkIaCEX0X6z3Go5hp~klxSFxBWT9-WNnd46R~W9UbfM45g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "price": 70
+    }
+
+  ]
+}

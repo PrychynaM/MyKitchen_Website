@@ -1,1 +1,26 @@
-<p>home works!</p>
+<section class="selected-dish" *ngIf="selected">
+  <p class="selected-dish-motto">SIMPLE</p>
+  <img class="selected-dish-image" src={{selected.img}}>
+  <p class="selected-dish-motto">QUICK</p>
+</section>
+
+
+<div class="dishes" >
+  <div class="dishes-info" *ngFor="let dish of data | slice:0:4" (click)="changeSelectedDish(dish)" >
+    <img class="dishes-image" src={{dish.img}}>
+    <p class="dishes-name">{{dish.name}}</p>
+    <p class="dishes-calories">{{dish.calories}} calories</p>
+
+    <div class="dishes-details">
+      <div class="dishes-details-cookingTime-wrapper">
+        <p class="time">Time</p>
+        <p>{{dish.time}} minutes</p>
+      </div>
+
+      <div class="dishes-details-amountOfPersons">
+        <p class="person">Person</p>
+        <p>{{dish.max_person}} Person</p>
+      </div>
+    </div>
+  </div>
+</div>
