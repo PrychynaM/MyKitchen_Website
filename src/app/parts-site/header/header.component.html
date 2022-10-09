@@ -1,1 +1,22 @@
-<p>header works!</p>
+<header class="header">
+  <div class="header-wrapper">
+    <a [routerLink]="['']" class="header-logo">My Kitchen</a>
+
+    <nav class="header-navigation">
+      <div class="link-wrapper">
+        <a class="links" [routerLink]="['']" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+      </div>
+
+      <div class="link-wrapper">
+        <a class="links" [routerLink]="['about']" routerLinkActive="active-link">About Us</a>
+      </div>
+
+      <div class="link-wrapper">
+        <a class="links" [routerLink]="['menu']" routerLinkActive="active-link">Menu</a>
+      </div>
+
+
+
+    </nav>
+  </div>
+</header>
